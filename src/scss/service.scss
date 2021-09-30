@@ -1,0 +1,96 @@
+.service{
+  padding: 100px 0;
+  &__title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 15px;
+  }
+  &__subtitle{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 100px;
+
+  }
+  &__content{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__video{
+    width: 57.1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("../images/bg-video.png") center/cover no-repeat;
+    &-btn{
+      background: #00A0C1;
+      border-radius: 73.6px;
+      width: 98px;
+      height: 98px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+  }
+  &__info{
+    width: 30.9%;
+    padding-top: 22px;
+    &-title{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 57px;
+      letter-spacing: 0.2px;
+      color: #252B42;
+      margin-bottom: 10px;
+    }
+    &-subtitle{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #737373;
+      margin-bottom: 20px;
+    }
+    &-item{
+      display: flex;
+      column-gap: 21px;
+      margin-top: 30px;
+      &-title{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        margin-bottom: 5px;
+      }
+      &-subtitle{
+        font-family: Montserrat,sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        color: #737373;
+      }
+    }
+  }
+}

@@ -1,0 +1,99 @@
+
+.first-screen{
+  padding-top: 190px;
+  background: url("../images/bg.png") center/cover no-repeat;
+  &__title{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    margin-bottom: 40px;
+  }
+  &__subtitle{
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    margin-bottom: 35px;
+  }
+  &__btns{
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 40px;
+  }
+  &__btn{
+    border-radius: 37px;
+    height: 48px;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    &_first{
+      width: 185px;
+      background: #FFA62B;
+      color: white;
+      border: none;
+    }
+    &_second{
+      width: 154px;
+      color: #00A0C1;
+      border: 1px solid #00A0C1;
+      background-color: transparent;
+    }
+  }
+  &_p{
+    padding: 0 15px;
+  }
+  &__card{
+    padding: 40px 30px 35px 40px;
+    background-color: white;
+    box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    &_last{
+      background: #00A0C1;
+
+    }
+    &-title{
+      margin: 15px 0 10px;
+      white-space: nowrap;
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 32px;
+      letter-spacing: 0.1px;
+      color: #252B42;
+      &_white{
+        color: white;
+      }
+    }
+    &-subtitle{
+      font-family: Montserrat,sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.2px;
+      color: #737373;
+      &_white{
+        color: white;
+      }
+
+    }
+  }
+  &__row{
+    position: relative;
+    top: 19px;
+    margin: 0 -15px;
+  }
+}
